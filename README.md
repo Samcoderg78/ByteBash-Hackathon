@@ -39,7 +39,7 @@ This script will:
 ├── run_email_test.py           # Run prediction using sample email
 ├── sample_email.txt            # Paste your email here for testing
 ├── CEAS_08.csv                 # Training dataset 1
-├── gpt.csv                     # Training dataset 2
+├── kaggle_data.csv             # Training dataset 2
 ├── phishing_model_voting.pkl   # Trained voting model
 ├── subject_vectorizer.pkl      # TF-IDF vectorizer for subject
 ├── body_vectorizer.pkl         # TF-IDF vectorizer for body
