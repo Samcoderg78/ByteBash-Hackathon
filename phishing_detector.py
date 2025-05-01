@@ -242,8 +242,8 @@ def load_and_combine_datasets():
             'col_mapping': {}  # No mapping needed if columns match
         },
         {
-            'name': 'GPT',
-            'path': 'gpt.csv',
+            'name': 'Kaggle Data',
+            'path': 'kaggle_data.csv',
             'required_cols': ['subject', 'body', 'label'],
             'col_mapping': {}  # No mapping needed if columns match
         }
