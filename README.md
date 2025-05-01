@@ -6,7 +6,7 @@ This project is a machine learning-based system designed to detect phishing emai
 
 ## 📽️ Demo Video
 
-🎥 **[Watch the Demo Here](https://drive.google.com/file/d/1F4xq08kxtwd80sxw7uCNX4szoWv2e0o-/view?usp=sharing)**
+🎥 **[Watch the Demo Here](https://drive.google.com/file/d/1Yl8XefhcONBbOfblre3EWHqRP5-d46ob/view?usp=sharing)**
 
 ---
 
