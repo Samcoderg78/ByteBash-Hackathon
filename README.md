@@ -31,6 +31,9 @@ This script will:
 - Confidence percentage
 - Class probabilities
 
+## 🧰 Project Structure
+
+```text
 📁 phishing-email-detector/
 ├── phishing_detector.py        # Core engine (training + prediction)
 ├── run_email_test.py           # Run prediction using sample email
@@ -43,6 +46,7 @@ This script will:
 ├── feature_scaler.pkl          # Scaler for numerical features
 ├── optimal_threshold.pkl       # Optimal decision threshold
 ├── reputation_cache.db         # Domain reputation cache (SQLite)
+
 
 
 ## 🧪Sample Output
