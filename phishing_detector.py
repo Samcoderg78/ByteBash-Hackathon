@@ -183,51 +183,7 @@ def generate_engineered_features(df, reputation_system=None):
 
     return features.fillna(0)
 
-# ================== MODEL TRAINING ==================
-# def train_models(X_train_final, y_train):
-#     base_models = [
-#         ('rf', RandomForestClassifier(
-#             n_estimators=300,
-#             class_weight={0: 1, 1: 3},
-#             max_depth=15,
-#             min_samples_split=3,
-#             random_state=42
-#         )),
-#         ('lr', LogisticRegression(
-#             class_weight='balanced',
-#             max_iter=2000,
-#             C=0.5,
-#             penalty='l2',
-#             solver='liblinear',
-#             random_state=42
-#         )),
-#         ('lgbm', LGBMClassifier(
-#             n_estimators=200,
-#             learning_rate=0.05,
-#             max_depth=10,
-#             random_state=42,
-#             verbose=-1
-#         ))
-#     ]
-
-#     voting_clf = VotingClassifier(
-#         estimators=base_models,
-#         voting='soft',
-#         weights=[0.5, 0.2, 0.3]
-#     )
-#     voting_clf.fit(X_train_final, y_train)
-
-#     y_scores = voting_clf.predict_proba(X_train_final)[:, 1]
-#     precision, recall, thresholds = precision_recall_curve(y_train, y_scores)
-#     f2_scores = (5 * precision * recall) / (4 * precision + recall)
-#     optimal_threshold = thresholds[np.argmax(f2_scores[:-1])]
-
-#     return {
-#         'model': voting_clf,
-#         'threshold': optimal_threshold
-#     }
-
-
+# ================== COMBINING DATASETS ==================
 def load_and_combine_datasets():
     """Load and combine all available datasets while ensuring compatibility."""
     print("Loading and combining datasets...")
@@ -471,8 +427,6 @@ class PhishingDetector:
             y_pred_proba[1] = min(y_pred_proba[1] + 0.3, 1.0)
             y_pred = 1 if y_pred_proba[1] > 0.5 else 0
             
-        # Existing post-processing rules (legitimate security comms, whitelist, etc.)
-        # [Keep all your existing post-processing rules here]
         
         # Return prediction and confidence
         result = "PHISHING" if y_pred == 1 else "LEGITIMATE"
