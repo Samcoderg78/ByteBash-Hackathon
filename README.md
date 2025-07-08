@@ -1,6 +1,6 @@
 # 🛡️ Phishing Email Detection System
 
-This project is a machine learning-based system designed to detect phishing emails using advanced text analysis, domain reputation checks, and an ensemble classification model. It’s accurate, explainable, and easy to use.
+This project is a Machine Learning-based system designed to detect phishing emails using advanced text analysis, domain reputation checks, and an ensemble classification model. It’s accurate, explainable, and easy to use.
 
 ---
 
