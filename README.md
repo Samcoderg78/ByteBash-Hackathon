@@ -102,4 +102,4 @@ Probabilities: {'Legit': 0.08, 'Phishing': 0.92}
 ## 📜 License
 MIT License - Free for educational and commercial use
 
-**Contributions welcome!** 🚀
+## **Contributions welcome!** 🚀
