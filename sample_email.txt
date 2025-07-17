@@ -1,35 +1,11 @@
----------------------PHISHIG--------------------------------
+Subject: Your Password Was Recently Changed
+Hi Saurabh,
 
----SUBJECT: 
-Congratulations! You’re Hired – Immediate Start
+We noticed that your password was changed on July 18, 2025. If you did this, no further action is needed.
 
----BODY: 
-Dear Applicant,
+If you did NOT make this change, please secure your account immediately by visiting:
 
-We are pleased to offer you a remote job at $50/hour! No experience needed.
+https://accounts.legit-site.com/recover
 
-To accept, click below and fill out your details:
-
-Accept Offer Now
-
-Hurry—positions are filling fast!
-
-Best,
-HR Team
-
-
------------------------------LEGITIMATE-------------------------------
-
----SUBJECT:
-Invoice #45892 - Payment Due
-
----BODY:
-Hello,
-
-Your invoice for $149.99 is attached. Please review and make the payment by July 20 to avoid service interruption.
-
-Download Invoice: Click Here
-
-Questions? Reply to this email.
-
-Billing Department
+Thanks,
+The Legit-Site Team
