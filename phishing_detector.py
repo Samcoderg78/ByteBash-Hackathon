@@ -267,7 +267,7 @@ def train_pipeline():
     reputation_system = DomainReputation()
     bert_embedder = BertEmbedder()
     df = load_and_combine_datasets()
-    df = df.sample(n=5000, random_state=42)  # Use only 5000 samples for quick testing
+   # df = df.sample(n=5000, random_state=42)  # Use only 5000 samples for quick testing
     X_train_raw, X_test_raw, y_train, y_test = train_test_split(
         df[['subject', 'body']], df['label'], test_size=0.2, random_state=42)
     print("Vectorizing text data...")
